@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>digits(form) sample</title>
+</head>
+
+<body>
+  <form action="http://0.0.0.0:5000/models/images/classification/classify_one.json" method="POST" enctype="multipart/form-data">
+    <select name="job_id">
+      <option value="20180419-143351-a7f6" selected="selected">20180419-143351-a7f6</option>
+    </select>
+    <input type="file" id="file" name="image_file">
+    <input type="submit" id="submit">
+  </form>
+</body>
+
+</html>
